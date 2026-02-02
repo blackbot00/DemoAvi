@@ -1,14 +1,14 @@
 {
   "name": "aviator-demo",
   "version": "1.0.0",
-  "description": "Aviator style crash game (virtual coins)",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "engines": {
-  "node": "18.x"
-},
+    "node": "18.x"
+  },
+  "packageManager": "yarn@1.22.19",
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2"
